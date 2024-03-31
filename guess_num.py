@@ -1,6 +1,10 @@
 import random
+a = input('請輸入範圍最小值: ')
+b = input('請輸入範圍最大值: ')
+a = int(a)
+b = int(b)
 
-r = random.randint(1, 100)
+r = random.randint(a, b)
 count = 0
 while True:
 	count += 1 # count = count + 1
